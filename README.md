@@ -12,6 +12,21 @@ Module 2 được chạy trong script "module2.ipynb"
 - High-pass filter để phát hiện biên và chi tiết ảnh  
 - So sánh và đánh giá kết quả trên nhiều ảnh khác nhau  
 
+## Thay đổi ảnh đầu vào
+Trong mỗi file `.ipynb`, đường dẫn ảnh đầu vào được khai báo thông qua biến `img_path`.
+
+Người dùng có thể **thay đổi giá trị của `img_path`** để thử nghiệm với các ảnh khác trong repository, ví dụ:
+
+```python
+img_path = "flower.jpg"
+# hoặc
+img_path = "noise.jpg"
+# hoặc
+img_path = "scenery.jpg"
+# hoặc
+...
+```
+
 ## Git clone repository
 ```bash
 git clone https://github.com/CaPPok/ComputerVision.git
