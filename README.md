@@ -1,12 +1,12 @@
 # HCMUT - Xử lý ảnh số và Thị giác máy tính
 
-## Module 1: Biểu diễn ảnh màu và ảnh xám
+## [Module 1: Biểu diễn ảnh màu và ảnh xám](module1.ipynb)
 Module 1 được chạy trong script "module1.ipynb"
 - Chuyển đổi giữa ảnh màu (RGB) và ảnh xám  
 - Tách và kết hợp các kênh màu R, G, B  
 - Phân tích vai trò của từng kênh màu trong ảnh  
 
-## Module 2: Lọc ảnh với Low-pass và High-pass Filter
+## [Module 2: Lọc ảnh với Low-pass và High-pass Filter](module2.ipynb)
 Module 2 được chạy trong script "module2.ipynb"
 - Low-pass filter để làm trơn và giảm nhiễu  
 - High-pass filter để phát hiện biên và chi tiết ảnh  
