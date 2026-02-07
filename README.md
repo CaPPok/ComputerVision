@@ -10,6 +10,12 @@
 - High-pass filter để phát hiện biên và chi tiết ảnh  
 - So sánh và đánh giá kết quả trên nhiều ảnh khác nhau  
 
+## Git clone repository
+```bash
+git clone https://github.com/CaPPok/ComputerVision.git
+cd ComputerVision
+```
+
 ## Hướng dẫn chạy chương trình
 
 ### Tạo môi trường Python
@@ -17,13 +23,16 @@
 python -m venv venv
 source venv/bin/activate      # Linux / MacOS
 venv\Scripts\activate         # Windows
+```
 
 ### Cài thư viện cần thiết
 ```bash
 pip install numpy opencv-python matplotlib jupyter
+```
 
 ### Chạy jupyter
 ```bash
 jupyter notebook
+```
 
 Mở các file .ipynb trong từng module để chạy chương trình.
